@@ -21,10 +21,9 @@ header>div {
     position: sticky;
     color: white;
     padding: 1rem 0;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     font-weight: 700;
-
 }
 .kind>span,
 .user>i {
@@ -53,6 +52,17 @@ main li {
 }
 li img {
     width: 25rem;
+}
+.img-b {
+    position: absolute;
+    left: 0;
+    visibility: hidden;
+}
+.card:hover .img-a{
+    visibility: hidden;
+}
+.card:hover .img-b {
+    visibility: visible;
 }
 .heart {
     position: absolute;
