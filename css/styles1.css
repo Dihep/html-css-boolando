@@ -3,6 +3,7 @@
     box-sizing: content-box;
     margin: 0px;
     padding: 0px;
+    font-family: Helvetica;
 }
 .flexed-r {
     display: flex;
@@ -12,7 +13,22 @@
     flex-direction: column;
 }
 
-/******************** Head styles ********************/
+/******************** Header styles ********************/
+header>div {
+    color: white;
+    background-color: orangered;
+    padding: 1rem 0rem;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 700;
+}
+.kind>span,
+.user>i {
+    margin: 0rem 0.2rem;
+}
+header img {
+    height: 3rem;
+}
 
 /******************** Main styles ********************/
 
