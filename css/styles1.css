@@ -1,35 +1,48 @@
 /******************** Universal styles ********************/
 * {
     box-sizing: content-box;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     font-family: Helvetica;
 }
-.flexed-r {
+.flexed {
     display: flex;
-}
-.flexed-c {
-    display: flex;
-    flex-direction: column;
 }
 
 /******************** Header styles ********************/
 header>div {
+    position: sticky;
     color: white;
     background-color: orangered;
-    padding: 1rem 0rem;
+    padding: 1rem 0;
     justify-content: space-around;
     align-items: center;
     font-weight: 700;
 }
 .kind>span,
 .user>i {
-    margin: 0rem 0.2rem;
+    margin: 0 0.2rem;
 }
 header img {
     height: 3rem;
 }
 
 /******************** Main styles ********************/
-
+main>div {
+    max-width: 1500px;
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+main li {
+    
+}
+li img {
+    width: 30rem;
+}
+.heart {
+    position: absolute;
+    top: 5%;
+    right: 0%;
+}
 /******************** Footer styles ********************/
