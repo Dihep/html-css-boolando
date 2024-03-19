@@ -1,0 +1,16 @@
+/******************** Universal styles ********************/
+* {
+    box-sizing: content-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+/******************** Head styles ********************/
+
+/******************** Main styles ********************/
+
+/******************** Footer styles ********************/
