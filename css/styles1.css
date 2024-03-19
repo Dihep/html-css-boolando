@@ -41,26 +41,28 @@ main {
 }
 main>div {
     max-width: 1500px;
-    flex-wrap: wrap;
 }
 main ul {
     list-style: none;
+    gap: 3rem 1rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 main li {
     position: relative;
 }
 li img {
-    width: 30rem;
+    width: 25rem;
 }
 .heart {
     position: absolute;
-    bottom: 700px; left: 445px;
+    top: 2%; right: 0%;
     background-color: white;
     padding: 0.6rem;
 }
 .tags {
     position: absolute;
-    bottom: 130px;
+    bottom: 20%;
 }
 .tags>span {
     font-weight: 700;
