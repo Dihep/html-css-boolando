@@ -5,19 +5,26 @@
     padding: 0;
     font-family: Helvetica;
 }
+.boxed {
+    width: 80%;
+    margin: 0 auto;
+}
 .flexed {
     display: flex;
 }
 
 /******************** Header styles ********************/
+header {
+    background-color: orangered;
+}
 header>div {
     position: sticky;
     color: white;
-    background-color: orangered;
     padding: 1rem 0;
     justify-content: space-around;
     align-items: center;
     font-weight: 700;
+
 }
 .kind>span,
 .user>i {
@@ -30,8 +37,6 @@ header img {
 /******************** Main styles ********************/
 main>div {
     max-width: 1500px;
-    width: 80%;
-    margin: 0 auto;
     flex-wrap: wrap;
 }
 main li {
@@ -46,3 +51,23 @@ li img {
     right: 0%;
 }
 /******************** Footer styles ********************/
+footer {
+    background-color: rgb(34, 34, 34);
+}
+footer>div {
+    height: 7rem;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+footer p {
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+footer span {
+    font-size: 0.8rem;
+    margin: 0 0.2rem;
+}
+footer section:last-child {
+    text-align: center;
+}
